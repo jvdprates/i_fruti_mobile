@@ -3,6 +3,10 @@
     "name": "i-fruti",
     "slug": "i-fruti",
     "version": "1.0.0",
+    "platforms": [
+      "ios",
+      "android"
+    ],
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
@@ -17,7 +21,11 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdetifier": "br.com.ifruti.ifruti"
+    },
+    "android": {
+      "package": "br.com.ifruti.ifruti"
     },
     "web": {
       "favicon": "./assets/favicon.png"
