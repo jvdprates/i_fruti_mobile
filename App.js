@@ -1,6 +1,7 @@
 import React, {useEffect} from 'react';
 import { StyleSheet, View, Text } from 'react-native';
 import { WebView } from 'react-native-webview';
+import { StatusBar } from 'expo-status-bar';
 
 import * as Permissions from 'expo-permissions';
 
@@ -15,6 +16,7 @@ export default function App() {
   return (
     <View style={styles.content}>
       <WebView source={{ uri: 'https://ifruti.com.br' }} />
+      <StatusBar style='light' />
     </View>
   );
 }
