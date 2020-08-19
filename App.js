@@ -1,8 +1,7 @@
 import React, {useEffect} from 'react';
-import { StyleSheet, View, Text } from 'react-native';
-import { WebView } from 'react-native-webview';
-
 import * as Permissions from 'expo-permissions';
+
+import Routes from "./src/routes";
 
 export default function App() {
 
@@ -12,20 +11,8 @@ export default function App() {
     }
     getPermission();
   }, [])
+
   return (
-    <View style={styles.content}>
-      <WebView source={{ uri: 'https://ifruti.com.br' }} />
-    </View>
+    <Routes/>
   );
 }
-
-const styles = StyleSheet.create({
-  content: {
-    flex: 1,
-    flexDirection: 'row',
-    paddingTop: 20,
-    backgroundColor: '#0e8512',
-    alignItems: 'center',
-    justifyContent: 'center',
-  }
-});
