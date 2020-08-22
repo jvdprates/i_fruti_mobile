@@ -9,7 +9,7 @@ import styles from "./MyWebviewStyle";
 export default function MyWebview({uri}) {
     return (
         <View style={styles.content}>
-            <WebView source={{ uri: 'https://ifruti.com.br'}} originWhitelist={['https://ifruti.com.br']}/>
+            <WebView source={{ uri: uri}} originWhitelist={[uri]}/>
             <StatusBar style='light' />
         </View>
     );
