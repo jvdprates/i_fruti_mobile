@@ -21,8 +21,7 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true,
-      "bundleIdetifier": "br.com.ifruti.ifruti"
+      "supportsTablet": true
     },
     "android": {
       "package": "br.com.ifruti.ifruti"
