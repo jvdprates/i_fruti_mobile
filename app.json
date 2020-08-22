@@ -29,9 +29,6 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    },
-    "android": {
-      "package": "com.ifruti.ifruti"
     }
   }
 }
