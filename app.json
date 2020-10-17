@@ -1,8 +1,8 @@
 {
   "expo": {
-    "name": "i-fruti",
-    "slug": "i-fruti",
-    "version": "1.0.0",
+    "name": "i-Fruti",
+    "slug": "i-Fruti",
+    "version": "1.0.1",
     "platforms": [
       "ios",
       "android"
