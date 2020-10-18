@@ -24,7 +24,8 @@
       "supportsTablet": true
     },
     "android": {
-      "package": "br.com.ifruti.ifruti"
+      "package": "br.com.ifruti.ifruti",
+      "permissions": []
     },
     "web": {
       "favicon": "./assets/favicon.png"
