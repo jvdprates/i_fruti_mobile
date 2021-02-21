@@ -2,7 +2,7 @@
   "expo": {
     "name": "i-Fruti",
     "slug": "i-Fruti",
-    "version": "4.0.0",
+    "version": "5.0.0",
     "platforms": [
       "ios",
       "android"
@@ -21,12 +21,17 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "br.com.ifruti.ifruti",
+      "buildNumber": "5.0.0",
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "This app uses your current location to find nearby stores"
+      }
     },
     "android": {
       "package": "br.com.ifruti.ifruti",
       "permissions": ["ACCESS_COARSE_LOCATION", "ACCESS_FINE_LOCATION"],
-      "versionCode": 4
+      "versionCode": 5
     },
     "web": {
       "favicon": "./assets/favicon.png"
